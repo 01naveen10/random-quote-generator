@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=Oswald:wght@200&family=Permanent+Marker&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to right, #6f0000, #200122);
+    color: white;
+    font-size: 16px;
+}
+
+header {
+    padding: 5rem;
+    font-size: 1.5rem;
+    font-family: "Akronim", cursive;
+}
+
+header button {
+    font-family: "Permanent Marker", cursive;
+    font-size: 2rem;
+    border-radius: 25%;
+    margin: 1.5rem auto;
+    padding: 0.1rem 1.1rem;
+}
+
+.quote-container {
+    padding: 2rem 4rem;
+}
+
+.quotes {
+    font-size: 3rem;
+    font-family: "Permanent Marker", cursive;
+}
+
+.author {
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+}
+
+footer {
+    position: relative;
+    margin-top: 5rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 10%;
+    right: 10%;
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        font-size: 12px;
+    }
+    header {
+        padding: 2.5rem;
+        font-size: 1rem;
+    }
+    header button {
+        font-size: 2rem;
+        border-radius: 25%;
+        margin: 1.15rem auto;
+        padding: 0.1rem 1.1rem;
+    }
+    .quote-container {
+        padding: 1.8rem 1.4rem;
+    }
+    .quotes {
+        font-size: 2.3rem;
+    }
+    .author {
+        padding: 1.5rem 2rem;
+        font-size: 1.5rem;
+    }
+}
